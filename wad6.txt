@@ -2,5 +2,27 @@ Assignment 6
 Deploy sinatra app on Heroku
 Q1. Find a sinatra application on Github and run
 it locally.
-Q2. Deploy the application to Heroku.
 
+Q2. Deploy the application to Heroku.
+	Install Heroku CLI on Linux:
+	
+	Login to heroku account: 
+	$ heroku login
+	#Enter your Heroku credentials.
+	
+	#Password:
+	#Could not find an existing public key.
+	#Would you like to generate one? [Yn]
+	#Generating new SSH public key.
+	#Uploading ssh public key /Users/adam/.ssh/id_rsa.pub
+	
+	Deploy app on Heroku:
+	
+	heroku create
+	Creating blazing-galaxy-997... done, stack is cedar
+	http://blazing-galaxy-997.herokuapp.com/ | git@heroku.com:blazing-galaxy-997.git
+	Git remote heroku added
+	
+	Deploy the code:
+	
+	$ git push heroku master
