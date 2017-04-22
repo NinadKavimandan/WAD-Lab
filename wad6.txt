@@ -1,0 +1,6 @@
+Assignment 6
+Deploy sinatra app on Heroku
+Q1. Find a sinatra application on Github and run
+it locally.
+Q2. Deploy the application to Heroku.
+
